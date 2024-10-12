@@ -17,7 +17,8 @@ defmodule QrWeb.Router do
   scope "/", QrWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    # get "/", PageController, :home
+    live "/", QrLive
   end
 
   # Other scopes may use custom stacks.
