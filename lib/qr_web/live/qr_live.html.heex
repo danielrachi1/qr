@@ -10,10 +10,9 @@
       />
     </div>
     <!-- Text Input for QR Code -->
-    <form phx-submit="generate_qr">
+    <form phx-submit="generate_qr" phx-change="input_changed">
       <div class="mb-4">
         <input
-          type="text"
           name="qr_input"
           id="qr_input"
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring focus:border-blue-500"
