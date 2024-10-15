@@ -4,19 +4,20 @@
     <!-- Image Placeholder -->
     <div class="flex justify-center mb-6">
       <img
-        src="your-placeholder-image.jpg"
-        alt="QR Code Preview"
+        src={"data:image/svg+xml;base64,#{@encoded_svg_qr_code}"}
+        alt="QR Code"
         class="w-40 h-40 border border-gray-300 rounded-lg"
       />
     </div>
     <!-- Text Input for QR Code -->
-    <form phx-submit="generate_qr" phx-change="input_changed">
+    <form phx-change="input_changed">
       <div class="mb-4">
         <input
           name="qr_input"
           id="qr_input"
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring focus:border-blue-500"
           placeholder="Enter text here..."
+          autocomplete="off"
         />
       </div>
     </form>
