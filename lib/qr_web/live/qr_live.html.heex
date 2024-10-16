@@ -10,7 +10,7 @@
       />
     </div>
     <!-- Text Input for QR Code -->
-    <form phx-change="input_changed">
+    <form phx-change="input_changed" phx-submit="input_changed" onSubmit="return false">
       <div class="mb-4">
         <input
           name="qr_input"
