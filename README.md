@@ -1,18 +1,12 @@
 # Qr
 
-To start your Phoenix server:
+A simple QR code generator. Built for getting familiar with Elixir, Phoenix, LiveView and fly.io.
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+Available at: https://qr-hidden-sun-1705.fly.dev/
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Feature~~s~~
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+A QR code is generated every time the text input changes.
 
-## Learn more
+https://github.com/user-attachments/assets/d42aed25-f4af-4280-893a-3c0c68a8e618
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
