@@ -2,8 +2,6 @@
 
 A simple QR code generator. Built for getting familiar with Elixir, Phoenix, LiveView and fly.io.
 
-Available at: https://qr-hidden-sun-1705.fly.dev/
-
 ## Feature~~s~~
 
 A QR code is generated every time the text input changes.
